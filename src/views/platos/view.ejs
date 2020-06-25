@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('../partials/head')  %>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header de header.ejs -->
+        <%- include ('../partials/navBar')  %>
+
+
+        <main>
+            <h1 class="text-center text-success display-5 mt-5 pt-2"> Detalle de Producto</h1>
+            <section class="bg-home pt-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 mx-auto bg-light">
+                            <div class="card">
+                                <ul class="list-group">
+                                    <li class="list-group-item">ID: <%=platoShow.id %> </li>
+                                    <li class="list-group-item">Nombre: <%=platoShow.nombre %> </li>
+                                    <li class="list-group-item">Descripción: <%=platoShow.descripcion %> </li>
+                                    <li class="list-group-item">Precio: <%=platoShow.precio %> </li>
+                                    <li class="list-group-item">Imagen: <%=platoShow.imagen %> </li>
+                                </ul>
+
+                            </div>
+                            <a class="btn btn-primary mt-1 mx-md-auto" href="/">Regresar</a>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </section>
+
+
+
+        </main>
+
+        <!-- Footer de footer.ejs -->
+        <%- include ('../partials/footer') %>
+
+   
+
+        <!-- Fin del Container -->
+    </div>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+
+</html>
