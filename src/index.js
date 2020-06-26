@@ -17,10 +17,12 @@ app.use(methodOverride('_method'));
 const webRoutes = require('./routes/webRoutes');
 const usuariosRoutes = require('./routes/usuariosRoutes');
 const adminRoutes = require('./routes/adminRoutes');
+const platosRoutes = require('./routes/platosRoutes');
 
 //Usar ese archivo de rutas
 app.use(webRoutes);
 app.use(usuariosRoutes);
 app.use(adminRoutes);
+app.use(platosRoutes);
 //Levantar nuestro servidor
 app.listen(3000,()=>console.log('Servidor corriendo en el puerto 3000'));

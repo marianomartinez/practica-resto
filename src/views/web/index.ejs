@@ -33,11 +33,11 @@
           <section class="row">
             <% for(let i = 0; i < platos.length;i++){ %>
               <article class="col-xs-12 col-md-6 col-lg-3 card p-2" >
-                <img src="img/<%= platos[i].imagen %>" class="card-img-top" alt="Coomida">
+                <img src="images/platos/<%= platos[i].imagen %>" class="card-img-top" alt="Coomida">
                 <div class="card-body">
                   <h5 class="card-title"> $<%= platos[i].precio %> </h5>
                   <p class="card-text"><%= platos[i].descripcion %> </p>
-                  <a href="#" class="btn btn-danger">Ver más</a>
+                  <a href="platos/view/<%=platos[i].id%> " class="btn btn-danger">Ver más</a>
                 </div>
               </article>
             <% } %>

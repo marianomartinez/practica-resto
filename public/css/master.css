@@ -19,3 +19,9 @@ ul li{
 
 @import 'login.css';
 @import 'registro.css';
+
+article:hover{
+ border-color: grey;
+ transform: scale(1.2);
+ z-index:1;
+}

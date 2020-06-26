@@ -3,7 +3,8 @@
     "nombre": "Plato uno",
     "descripcion": " Hola como estamos Some quick example text to build on the card title and make up the bulk of the card's content.",
     "precio": "500",
-    "id": "1"
+    "id": "1",
+    "imagen": "hamburger.jpg"
   },
   {
     "id": 2,
@@ -58,13 +59,15 @@
     "id": 9,
     "nombre": "Plato uno",
     "descripcion": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "precio": "480"
+    "precio": "480",
+    "imagen": "hamburger.jpg"
   },
   {
     "id": 10,
     "nombre": "Plato uno",
     "descripcion": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "precio": "500"
+    "precio": "500",
+    "imagen": "hamburger.jpg"
   },
   {
     "id": 11,
